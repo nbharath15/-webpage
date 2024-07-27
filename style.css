@@ -1,0 +1,119 @@
+
+.bg{
+ background-size: cover;
+}
+
+.logo{
+   padding-left: 650px;
+}
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  /* The about link: 20px from the top with a green background */
+  #home {
+    top: 60px;
+    background-color: #04AA6D;
+  }
+  
+  #services {
+    top: 120px;
+    background-color: #2196F3; /* Blue */
+  }
+  
+  #contact{
+    top: 180px;
+    background-color: #f44336; /* Red */
+  }
+  
+  #about{
+    top: 240px;
+    background-color: #555 /* Light Black */
+  }
+
+  * {box-sizing: border-box;}
+  .sidenav {
+    float: right;
+  
+  }
+
+  .sidenav input[type=text] {
+    padding: 6px;
+    position: relative;
+    top: 0;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .sidenav  button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sidenav button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .sidenav {
+      float: none;
+    }
+   #mysidenav a, .sidenav input[type=text], .sidenav button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .sidenav input[type=text] {
+      border: 1px solid #ccc; 
+    }
+  
+  }
+  .cont{
+    padding-left: 300px;
+    padding-top: 250px;
+    text-align: center;
+    font-size: large;
+  }
+  .con{
+
+    text-align: center;
+    font-size: xx-large;
+  }
+.co{
+    padding-right: 200px;
+    text-align: center;
+    font-size:large;
+  }
+
+.in{
+  padding-top: 10px;
+  padding-left: 580px;
+  font-size:1.8rem;
+  font-weight: 600;
+  box-sizing: 50px;
+  white-space: nowrap;
+}
+.tre:hover{
+  transform:scale(1.2); transition-duration: 1.5s;
+}
